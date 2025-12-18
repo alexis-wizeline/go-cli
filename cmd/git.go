@@ -139,7 +139,7 @@ var (
 	gitCmd = &cobra.Command{
 		Use:     "git [action]",
 		Short:   "commands for github",
-		Long:    ` aliases to work with github commands`,
+		Long:    `aliases to work with github commands`,
 		Aliases: []string{"g"},
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("run with any of these commands", commands)
