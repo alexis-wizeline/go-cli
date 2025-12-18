@@ -86,6 +86,10 @@ func (g gitActions) trackFiles() error {
 	}
 
 	files := strings.Split(string(filesStr), "\n")
+	if len(files) == 0 {
+		return nil
+	}
+
 	params := []string{"add"}
 	folders := make(map[string]struct{})
 	for _, file := range files {
