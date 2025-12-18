@@ -1,2 +1,32 @@
-.tool-versions
-.idea
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Compiled Go packages
+*.a
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (remove the comment below to include it in the repo)
+# vendor/
+
+# Project-specific binaries (optional)
+# If you build your binaries into a specific directory, you can ignore the whole folder
+bin/
+build/
+
+# IDE/Editor-specific files (optional, can also be added to a global gitignore)
+# VS Code
+.vscode/
+
+# IntelliJ/GoLand
+.idea/
+
+# macOS files
+.DS_Store
